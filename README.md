@@ -36,16 +36,24 @@ Preguntas Abiertas (10)
 
     Programación Orientada a Objetos (OOP):
         ¿Qué es una clase en JavaScript y cómo se define una?
-        una clase es simplemente una forma de agrupar metodos
+        una clase es simplemente una forma de agrupar metodos y la forma de definir una clase en js es:
 
     Eventos en JavaScript:
         ¿Cómo se agrega un evento de clic a un botón en JavaScript?
+        1)seleccionamos el boto
+        2)le ponemos un escuchador de eventos de la siguiente forma:
+        button.addeventlistener("click",()=>{
+        
+        })
 
     Variables y Tipos de Datos:
         Explica las diferencias entre var, let, y const en JavaScript.
+        var te permite redefinir el valor de una variable de forma global  por lo que es sumamente mutable, let permite redefinir el valor de una variable pero de manera local
+        y const no se puede redefinir el valor de la variable y hay que declararla de inmediato 
 
     Control de Flujo:
         ¿Qué son las estructuras de control de flujo y cuáles son algunas de las más comunes en JavaScript?
+        las estructuras de control de flujo
 
     Funciones de Flecha:
         Describe qué es una función de flecha en JavaScript y proporciona un ejemplo de cómo se usa.
