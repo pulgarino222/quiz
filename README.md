@@ -13,13 +13,30 @@ Instrucciones de envío
 Preguntas Abiertas (10)
 
     JavaScript Básico:
-        Describe qué es una función en JavaScript y cómo se declara.
+        1)Describe qué es una función en JavaScript y cómo se declara.
+        una funcion en java script es un conjunto de acciones que nos permite llegar a un objetivo especifico y todas estas acciones se encapsulan en una funcion
+        y se declara de dos formas la primera es: 
+        *function nameOfFunction(parameter){
+        content that have the function
+        }
+        *let saveFunction= ()=>{
+        actions that have the functiion
+        }
+
+    
 
     Manipulación del DOM:
-        Explica cómo seleccionar un elemento del DOM y cambiar su contenido.
+       2) Explica cómo seleccionar un elemento del DOM y cambiar su contenido.
+        Respuesta:
+        seleccionamos el elemento del doom que deseemos seleccionar se puede hacer de la siguiente forma 
+        let elementThatChange=document.queryselector("nombre del elemento")
+        y para editar el contenido que tiene este elemento lo podemos hacer de varias formas la mas sencilla en mi opinion seria 
+        elementThatChange.innerHTML='<div>contenido nuevo modificado</div>'
+        
 
     Programación Orientada a Objetos (OOP):
         ¿Qué es una clase en JavaScript y cómo se define una?
+        una clase es simplemente una forma de agrupar metodos
 
     Eventos en JavaScript:
         ¿Cómo se agrega un evento de clic a un botón en JavaScript?
